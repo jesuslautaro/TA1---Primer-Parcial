@@ -15,29 +15,11 @@
     Fecha De Nacimiento: <input type="text" name="FechaDeNac" id="FechaDeNac"> <br>
     Email: <input type="text" name="Email" id="Email"> <br>
     <button type="submit">Mostrar </button><br>
+    
 </form>
+
+</body>
 </html>
 
-<?php
 
-function EnviarDatos {
-
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $Nombre = $_POST['nombre'];
-    $Apellido = $_POST['apellido'];
-    $Telefono = $_POST['telefono'];
-    $Edad = $_POST['edad'];
-    $FechaDeNac = $_POST['FechaDeNac'];
-    $Email = $_POST['Email'];
-    echo $Nombre  ;
-    echo $Apellido  ;
-    echo $Telefono  ;
-    echo $Edad ;
-    echo $FechaDeNac  ;
-    echo $Email  ;
-  
-    }
-
-}
-?>
 
