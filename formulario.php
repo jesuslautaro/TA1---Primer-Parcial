@@ -14,3 +14,5 @@
        '$Nombre', '$Apellido', '$Telefono', '$FechaDeNac', '$Edad', '$Email')";
 
    mysqli_query($conexion,$sql);
+
+   
